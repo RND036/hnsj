@@ -1,0 +1,271 @@
+:root {
+    --color-primary: #0073ff;
+    --color-white:#eee7e7;
+    --color-black:black;
+    --color-black-1:#f09013;
+}
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+body {
+    font-family: sans-serif;
+    background-color:rgb(0, 0, 0);
+
+
+}
+
+.menu_bar {
+    background-color: var(--color-black);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    text-decoration: none;
+
+}
+
+.logo{
+    color: var(--color-white);
+    font-size: 30px;
+
+}
+
+.logo span {
+    color:var(--color-primary) ;
+
+}
+
+.menu_bar ul {
+    list-style: none;
+    display: flex;
+ 
+
+}
+.menu_bar ul li {
+    padding: 10px 30px;
+    position: relative;
+    padding: 5px 20px;
+    
+    text-decoration: none;
+  
+}
+
+.menu_bar ul li a{
+    color: var(--color-white);
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.3s;
+}
+
+.menu_bar ul li a:hover {
+    color: var(--color-primary);
+
+}
+
+.dropdown_menu {
+    display: none;
+}
+
+.menu_bar ul li:hover .dropdown_menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: var(--color-black);
+}
+
+.menu_bar ul li:hover .dropdown_menu ul{
+    display: block;
+    margin: 10px;
+    color: var(--color-white);
+
+}
+
+.menu_bar ul li:hover .dropdown_menu ul li {
+    width: 150px;
+    padding: 10px;
+}
+ /* navigation bar*/
+
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins' , sans-serif;
+}
+
+.heroo{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgb(170, 152, 46)), url(./photos/sea-g432e16335_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+}
+
+ /* main img */
+
+form{
+    width: 90%;
+    max-width: 600px;
+}
+
+.input-group{
+    margin-bottom: 30px;
+    position: relative;
+
+}
+
+input, textarea{
+
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #fff;
+    background: transparent;
+    font-size: 15px;
+}
+
+label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #fff;
+    cursor: text;
+    transition: 0.2s;
+}
+
+button{
+    padding: 10px 0;
+    color: #fff;
+    outline: none;
+    background: transparent;
+    border: 1px solid #fff;
+    width: 100%;
+    cursor: pointer;
+}
+
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+    top: -35px;
+    font-size: 14px;
+
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row  .input-group{
+    flex-basis: 48%;
+}
+
+ /* login informations*/
+
+.icon img{
+
+    height:40px;
+    width: 40px;
+    margin-left: 10px;
+    
+ }
+ 
+ .icon{
+     margin-left: 620px;
+ }
+
+  /* icons*/
+.sticky-footer{
+
+    position: sticky;
+    top: 100%;
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.footer{
+    background: rgba(45, 158, 173, 0.836);
+    padding: 70px 0;
+    border-top-left-radius:30%;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col{
+
+    width: 25%;
+    padding: 0  15px;
+
+}
+
+.footer-col  h4{
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col  h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background: #f09013;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul ul {
+    list-style: none;
+
+}
+
+.footer-col ul ul li{
+
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: all .3s ease;
+}
+
+.footer-col ul ul li a:hover{
+    color: #eee7e7;
+    padding-left: 6px;
+}
+
+.contact{
+    color: white;
+}
+
+ /* footer*/
+
+ @media only screen and( max-width: 1000px){
+
+ }

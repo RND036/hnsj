@@ -1,0 +1,432 @@
+:root {
+    --color-primary: #0073ff;
+    --color-white:#eee7e7;
+    --color-black:black;
+    --color-black-1:#f09013;
+}
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+body {
+    font-family: sans-serif;
+    background-color:black;
+
+
+}
+
+.menu_bar {
+    background-color: var(--color-black);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    text-decoration: none;
+
+}
+
+.logo{
+    color: var(--color-white);
+    font-size: 30px;
+
+}
+
+.logo span {
+    color:var(--color-primary) ;
+
+}
+
+.menu_bar ul {
+    list-style: none;
+    display: flex;
+ 
+
+}
+.menu_bar ul li {
+    padding: 10px 30px;
+    position: relative;
+    padding: 5px 20px;
+    
+    text-decoration: none;
+  
+}
+
+.menu_bar ul li a{
+    color: var(--color-white);
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.3s;
+}
+
+.menu_bar ul li a:hover {
+    color: var(--color-primary);
+
+}
+
+.dropdown_menu {
+    display: none;
+}
+
+.menu_bar ul li:hover .dropdown_menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: var(--color-black);
+}
+
+.menu_bar ul li:hover .dropdown_menu ul{
+    display: block;
+    margin: 10px;
+    color: var(--color-white);
+
+}
+
+.menu_bar ul li:hover .dropdown_menu ul li {
+    width: 150px;
+    padding: 10px;
+}
+
+ /* navigation bar*/
+h1{
+    color:bisque;
+    text-align: center;
+}
+
+.donate{
+    color: aqua;
+    text-align: center;
+}
+ /* titles*/
+p{
+    color: white;
+   text-align: center;
+}
+
+h3{
+    color: #0073ff;
+    text-align: center;
+}
+
+.donate2{
+
+text-align:left
+}
+
+.dc{
+
+    color: #0cf0f0;
+    text-align: center;
+}
+img{
+    
+  width: 1350px;
+  height:320px;
+  align-items:space ;
+  
+ 
+}
+
+
+
+h1 {
+    text-align: center;
+    font-family:sans-serif;
+    color: #03e2ff;
+    margin-top: 100%;
+    margin: 10px;
+}
+h2{
+    color: white;
+}
+
+ /* paragraphs*/
+.button{
+    text-align: center;
+    font-size: 50%;
+}
+
+.button :hover{
+    color: #eb0a0a;
+    box-shadow: 0px 7px 10px #3b93bb;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: o.4s ease-in-out;
+    text-decoration: none;
+    padding: 0.5rem  1rem;
+   
+ /* button*/
+
+}
+
+
+h4{
+    text-align: center;
+       
+}
+
+p{
+   color: white;
+}
+ /* donate section*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    margin-top:0%;
+
+}
+
+body{
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+.cover{
+    width: 200px;
+    height: 200px;
+    background: blacks;
+    margin-top: 50px;
+    display: flex;
+
+}
+.box{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    box-shadow: -1px 0 10px 0000;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+}
+
+img{
+
+    width: 150px;
+    height: 150px;
+    display: flex;
+    border:4px solid  #54bce6;
+    box-shadow: 0px 7px 10px #5bd8e9;
+    transition: 0.5s ease-in-out;
+}
+
+
+.fff{
+        width: 800px;
+        height: 500px;
+        margin: 20px;
+        box-shadow: -1px 0 10px 0000;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: black;
+    }
+
+    .cover2{
+        
+            width:300px;
+            height: 400px;
+            background: black;
+            margin-top:140px;
+            display: flex;
+    }
+
+    img{
+
+        width: 150px;
+        height: 150px;
+        display: flex;
+    }
+
+    .cover3{
+        width:500px;
+        height: 400px;
+        background: black;
+        margin-top:140px;
+        display: flex;
+
+    }
+.box3{
+
+        width: 400px;
+        height: 400px;
+        margin: 20px;
+        box-shadow: -1px 0 10px 0000;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: black;
+}
+
+img{
+
+    width: 150px;
+    height:150px;
+    
+}
+.shop{
+
+    width: 400px;
+    height: 400px;
+    background: blacks;
+    margin-top:40x;
+    display: flex;
+    text-align: left;
+}
+
+.shop2{
+
+    width: 800px;
+    height: 500px;
+    margin: 20px;
+    box-shadow: -1px 0 10px 0000;
+    align-items: center;
+    justify-content: left;
+    text-align: left left;
+    background-color:black;
+}
+
+h5{
+    color: #eee7e7;
+    text-align: center;
+}
+
+h1{
+
+    color: rgb(255, 255, 255);
+}
+
+
+
+h4{
+    color: azure;
+}
+ /* shop items */
+
+h2{
+    text-align: center;
+}
+
+.i img{
+    
+    width: 1350px;
+    height:320px;
+    align-items:space ;
+    border: solid 10px;
+    box-shadow: 0px 7px 10px #363333;
+    
+   
+  }
+   /* image*/
+
+  .iconp img{
+
+    height:40px;
+    width: 40px;
+    margin-left: 10px;
+    margin: 7px;
+    
+ }
+ 
+ .iconp{
+     margin-left: 620px;
+ }
+
+ /*icons*/
+.sticky-footer{
+
+    position: sticky;
+    top: 100%;
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.footer{
+    background: rgba(45, 158, 173, 0.836);
+    padding: 70px 0;
+    border-top-left-radius:30%;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col{
+
+    width: 25%;
+    padding: 0  15px;
+
+}
+
+.footer-col  h4{
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+    text-align: left;
+}
+
+.footer-col  h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background: #f09013;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul ul {
+    list-style: none;
+
+}
+
+.footer-col ul ul li{
+
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: all .3s ease;
+}
+
+.footer-col ul ul li a:hover{
+    color: #eee7e7;
+    padding-left: 6px;
+}
+
+ /* footer*/
+ /* purchase section*/
+
+
+ @media only screen and( max-width: 1000px){
+.cover2{
+    width: 100px;
+    flex-wrap: wrap;
+}
+img{
+    display: block;
+}
+
+
+
+ }

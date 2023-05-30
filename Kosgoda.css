@@ -1,0 +1,267 @@
+:root {
+    --color-primary: #0073ff;
+    --color-white:#eee7e7;
+    --color-black:black;
+    --color-black-1:#f09013;
+}
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: sans-serif;
+    background-color:black;
+
+
+}
+
+.menu_bar {
+    background-color: var(--color-black);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    text-decoration: none;
+
+}
+
+.logo{
+    color: var(--color-white);
+    font-size: 30px;
+
+}
+
+.logo span {
+    color:var(--color-primary) ;
+
+}
+
+.menu_bar ul {
+    list-style: none;
+    display: flex;
+ 
+
+}
+.menu_bar ul li {
+    padding: 10px 30px;
+    position: relative;
+    padding: 5px 20px;
+    
+    text-decoration: none;
+  
+}
+
+.menu_bar ul li a{
+    color: var(--color-white);
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.3s;
+}
+
+.menu_bar ul li a:hover {
+    color: var(--color-primary);
+
+}
+
+.dropdown_menu {
+    display: none;
+}
+
+.menu_bar ul li:hover .dropdown_menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: var(--color-black);
+}
+
+.menu_bar ul li:hover .dropdown_menu ul{
+    display: block;
+    margin: 10px;
+    color: var(--color-white);
+
+}
+
+.menu_bar ul li:hover .dropdown_menu ul li {
+    width: 150px;
+    padding: 10px;
+}
+ /* navigation bar*/
+.hero {
+
+    background-image: url(./photos/sea-turtle-conservation-project3.jpg);
+    height:calc(100vh - 80px) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 7px 10px #6ff2f7;
+    transition: 0.5s ease-in-out;
+
+}
+ /* main img*/
+
+h1{
+    color: white;
+}
+
+
+.kosgoda{
+    color: #eee7e7;
+    text-align: center;
+    border: 10px dotted rgb(91, 158, 170);
+    margin:3%;
+ }
+
+     /* dotted border*/
+
+img{
+
+    width: 400px;
+    height: 300px;
+    margin: 5px;
+}
+ /* images*/
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ /* main title*/
+
+.text{
+    color: rgba(240, 243, 243, 0.705);
+    text-align: center;
+}
+ /* paragraphs*/
+
+.kosgoda2{
+    color: #eee7e7;
+    text-align: center;
+    margin:5%;
+}
+
+img{
+
+    width: 400px;
+    height: 300px;
+    margin: 5px;
+    box-shadow: 0px 7px 10px #6db3e2;
+    transition: 0.5s ease-in-out;
+    border: 1px solid #65ccdf;
+}
+ /* image with border*/
+.container{
+
+    width: 100%;
+    height:250px;
+    margin-top: 50px;
+    border:5px solid rgba(10, 10, 10, 0.377);
+    border-radius: 8px;
+    
+}
+
+ /* google map*/
+
+.kosgoda3{
+    color: #dce5e7;
+    text-align: center;
+    margin: 50px;
+    box-shadow: 0px 7px 10px #42abd4;
+    transition: 0.5s ease-in-out;
+}
+
+ /* paragraph with border*/
+
+.icon img{
+
+    height:40px;
+    width: 40px;
+    margin-left: 10px;
+    
+ }
+ 
+ .icon{
+     margin-left: 620px;
+ }
+
+  /* icons*/
+.sticky-footer{
+
+    position: sticky;
+    top: 100%;
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.footer{
+    background: rgba(171, 141, 199, 0.699);
+    padding: 70px 0;
+    border-top-left-radius:30%;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col{
+
+    width: 25%;
+    padding: 0  15px;
+
+}
+
+.footer-col  h4{
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col  h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background: #f09013;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul ul {
+    list-style: none;
+
+}
+
+.footer-col ul ul li{
+
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: all .3s ease;
+}
+
+.footer-col ul ul li a:hover{
+    color: #eee7e7;
+    padding-left: 6px;
+}
+
+ /* footer*/
+
+ @media only screen and( max-width: 1000px){
+    .kosgoda img{
+        display: block;
+    }
+
+ }
